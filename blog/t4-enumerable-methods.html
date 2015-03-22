@@ -13,16 +13,38 @@
 Cycles, Cycles, Cycles. But what do cycles....doooo.....dude? Pretty sure Jesus asked that in his message to the Corinthians. Could have also been Winston Churchill or perhaps even Lincoln at Gettysburg. Either way, cycles have CLEARLY been the rage for generations. I get it. And the kids these days just don't have a full appreciation for this old timey gem. I can hear them now. "We don't need you, old man. Your cycles thing brings nothing to the table. YOU'RE NOT MY REAL DAD."
 </p>
 <p>
-Well they are ALL WRONG. You do need cycles. They are a wonderfully nifty tool. Hell, I could take in this constant criticism and quickly shoot back "Lalala I can't hear you!" four or five times without having to write it all out. This gift for repetition can be wildly useful. Sure, you aren't always going to want to just repeat the same phrase, over and over again, but this cycle can be stored for use down the road.
+Well they are ALL WRONG. You do need cycles. They are a wonderfully nifty tool. Hell, I could take in this constant criticism and quickly shoot back "Lalala I can't hear you!" four or five times without having to write it all out. This gift for repetition can be wildly useful. Think of it this way. An array is basically just a collection of data but you don't always want to just return the same values, or even the same position in the array. Cycle gives you that option. You can throw back the same string or array over and over (till time ends if you reeeeally wanted) or even store the cycle and then continually call "next" on the object.
 </p>
 <p>
-here hashes shine.
+So lets get you guys some examples of this. First lets talk about the simple repetition. Lets say you have this:
 </p>
 <p>
-shes really make them particuarly useful, especially for new coders like us.
+  names = ["Jim", "Geoff", "John"]
 </p>
 <p>
-dge goes a long way towards knowing when to use each.
+Lets say for some reason you are frustrated and want the computer to spit back that whole array a few times. What a pain in the butt it would be to have to write line after line of puts, asking each one to print individually. Isn't there a better way? YUUUUUP!
+
+names.cycle { |x| puts x }
+
+So lets think what is happening here. We're calling our array and telling it to cycle, then saying that we want each cycle to print each value in the array. But hold up, we have a bit of a problem here? Have you found it? Thats ok, not easy to spot. Computers being the literal things they are won't know how many times you want this cycle to occur. They don't read this as bounded, so they will actually the entire thing over and over again until, well, the computer dies. Not ideal.
+</p>
+<p>
+names.cycle(2) { |x| puts x }
+
+Ah, that's better. Now we've told our program what to do. Like above it knows we want to cycle the array, but now we've given it a bound. The computer knows to print the array twice. Perfect!
+</p>
+<p>
+So what if we don't want it just printed all together right at this moment. Lets say we want the cycle to remember where we are and print the next piece of data from the array when we want it. For this we want to create a cycle object like this:
+
+item = names.cycle.each
+</p>
+<p>
+Now, let's call the first item from our array. Well, that's easy. Simply type:
+item.next
+It's that simple! Now you can store your arrays and slowly offer out the data at moments of your choosing. The cycle function lets you slowly but surely work your way down the list!
+</p>
+<p>
+So there you go. The cycle function. Brilliant ain't it? Whether you want to repeat the same message till the end of time or just load up the data to offer out at moments of your choosing, cycle is a nifty tool that lets you accomplish a ton. Don't believe me? Try it for yourself!
 </p>
 <p>
 Code on!
