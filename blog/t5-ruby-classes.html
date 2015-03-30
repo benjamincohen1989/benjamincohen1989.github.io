@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+<title>Classes</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+<main>
+<h1>Class Warfare</h1>
+<h2>Not just for politicos</h2>
+<h4>March 30, 2015</h4>
+<section>
+<p>
+Welcome....CLASS.....AHAHAHA, see what I did there? You laughing? Screw you, it was funny.
+</p>
+<p>
+Really, welcome to classes. As we go through our Ruby education, remember, when possible, be lazy. Seriously, be as lazy as you can be. If lazy were an Olympic sport, shoot for the gold (though I guess paradoxically that would mean not being lazy about that...). Anyways, classes are your chance to be lazy.
+</p>
+<p>
+Classes let you come up with rules that you can apply to objects across your code by simply creating the objects in that applicable class. Think of it like CSS rules, but on steroids. In the Rubyist they talk about creating tickets, but we're gonna get a little more real world with you here. Let's talk about dating.
+</p>
+<p>
+Lets say you want to be able to do a quick check on whether that girl/guy you met at the bar is really a suitable match. You'd want to be able to enter their details, have the computer look them through and spit out a recommendation next steps.
+</p>
+<p>
+Let's try it out. First lets make out class, we'll call it Match.
+
+Class Match
+
+Good. Now lets add some traits we want to keep in mind and have the computer read those back to us to be sure. Finally, lets add in a simple test. See if you can guess what MY favorite team is. If you can't guess, well, you're missing out on some wonderful stuff.
+
+Class Match
+
+  def initialize(age,from,fav_team)
+    @age = age
+    @from = from
+    @fav_team = fav_team
+  end
+
+  def check_match
+    if @fav_team = "Red Sox"
+      return "Run as fast as you can, they're crazy"
+    else
+      return "Nothing else matters so long as they don't like the Red Sox. Go for it!"
+  end
+end
+</p>
+<p>
+So now we want to run that create a new class object and see if this person passes our little test.
+
+First we make the object:
+
+person = Match.new(26, "New York", "Yankees")
+person.check_match
+</p>
+<p>
+If you checked this in your IRB (which I'm sure you did because you're hanging on my every word and at heart desire my approval) you would see our class run and the test come back as basically telling you, hey, they aren't a Sox fan, you're fine. That means the world is your oyster, at least when it comes to dating, but also shows just how useful classes can be. Keep in mind, we can get a lot more clever with them and simplify this quite a bit, but as a learning tool,t his is a nice headstart. Happy (dating) trails!
+</p>
+</section>
+</main>
