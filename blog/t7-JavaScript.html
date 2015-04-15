@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<title>Ruby Vs. JavaScript</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+<main>
+<h1>Ruby Classes vs. JavaScript Constructors</h1>
+<h2>Wait, you want to just make that again?</h2>
+<h4>April 14, 2015</h4>
+<section>
+<p>
+We all know that Ruby and JavaScript are different languages. At least we all SHOULD know that. But surely there is some overlap in there right? Well, you should also already know that there is a boatload. I'm not here to tell you all the ways they're the same. I'm here to give you an example of where they differ.
+</p>
+<p>
+Ruby classes and JS constructors are a wonderful example of this difference. Both of these languages offer the chance to do object oriented programming, but go about it in slightly different ways. Sure, you could likely do it in just about the same way, but best practices are slightly different. Take for example JS constructors. With that we tend to go object to object. Let's say we want to make a car. We would want to be very literal with it. We'd create a variable and then fill in the details.
+</p>
+<p>
+var benCar = {
+  make: "Chevy"
+  model: "Tahoe"
+  year:2009
+  mileage: 45890
+}
+</p>
+<p>
+This seems pretty cut and dry. Once we have our objects we can come up with functions that we can run them all through. Ruby on the other hand tends to be a bit more overarching. That's where classes come in. Lets go back to our car example. We would basically make a class that takes into account all of the detail that we want to include in any description of a car.
+</p>
+<p>
+class Car
+
+def Initialize(make,model,year,mileage)
+</p>
+<p>
+Now we'd go about making a new <i>instance</i> of a car.
+
+benCar = car.New("Chevy", "Tahoe", 2009, 45890)
+</p>
+<p>
+Great, that's easy, ain't it? Now we have two different languages and two different objects but containing the same information. The real difference will be what we do with it going forward. Now with JS we need to make functions. We come up with all of the actions we want and then apply those actions individually to objects we've created. With Ruby, we can push those actions into the classes. That will make sure that each time we create a new object it already knows what actions you'd like to do with it and will be able to just call it directly. This may seem like a small difference but it will pay big dividends down the line!
+</p>
+</section>
+</main>
