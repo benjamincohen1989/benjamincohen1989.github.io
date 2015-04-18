@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Ruby Cheatsheet</title>
+  </head>
+  <body>
+    <div id="header" ahref="http://www.espn.com">
+      <h1> Welcome to our Ruby cheatsheet! </h1>
+      <h2>Helpful tips to get you from A to Z! </h2>
+    </div>
+    <div class="tips">
+    <h1>Srings vs. Integers</h1>
+    <p> So this is the very basic building block level of Ruby. To put it simply, a string is a series of characters, surrounded by quotation marks. That means your basic text, such as "dog", "cat", "stripper" etc. Integers on the other hand are your numbers. They can be whole numbers, like 1, 2 etc or they can include decimals (though let's not worry too much about those for now).</p>
+    <p>Here is a string: "I took the dog for a walk"</p>
+    <p>And here is an integer: 782</p>
+    <p>Easy right?</p>
+    </div></a>
+    <div class="tips">
+    <h1>Variables</h1>
+    <p>So great, you know what an integer is. Why should you care what that is, how can I even use those things? Well, here is where variables come in. Variables are the memory locations which hold any data you'd like a program to be able to use later. It's basically just a quick reference you can write in your code that tells the computer to look up what you wrote previously.</p>
+    <p>Let's say I want to name my dog. Wouldn't it be a major pain in the ass to have to keep reminding my computer what the damn dog's name is? Sure would be. So let's just create a variable called dog, and give it a name. Here's how we do it: dog = "Rufus". Now, when we call out Dog to the computer, it will already know that we mean Rufus.</p>
+    </div>
+    <div class="tips">
+    <h1>Hashes vs. Arrays</h1>
+    <p>Hashes and arrays are basically variables, but on steroids. They store multiple pieces of data at once, and Ruby even comes with some nifty actions you can do with them. Think of an array like a list. For instance you can name all of the people coming to your birthday party. That way I can just hit print "PartyList" rather than having to make a separate variable for each person. But let's say that isn't good enough and we want to be able to give more information on each person, say, the food they are brining. Well, an array is just a basic list, so that may run into problems. But a hash, well, that let's you add in a second piece of data for each entry. Let's see examples of each: </p>
+    <p>Here is an array: myParty = [Joe,Tim,Sally,Scott,Amanda] Pretty simple. But that's just one type of data, namely....names. What if we want to classify more?</p>
+    <p>Well, here comes Mr. Hash: myParty = {Joe =>Cake, Tim=>Cookies,Sally=>Cocaine,Scott=>Vodka,Amanda=>Crayons} Now when we print our list we know what each person is bringing. Wonderful! Should be one hell of a party....</p>
+    </div>
+    <div class="tips">
+    <h1>Class</h1>
+    <p>CLASS WARFARE!!! Classes are basically blueprints for objects. They hold all of the methods that certain object may need to use in the future. Essentially its a basic replicator. Think of it like this. I'm a teacher with 30 students in my class. I've been collecting a ton of data on my kids, like their grades, their addresses, their parents information etc. I may need to call on that information at any time in a number of ways, like preparing home reports or setting up parent teacher meetings. It would be a massive pain in the ass to have to write, for each student, every single method I may need to use with their information. Wouldn't it be easier to just write out all the methods I would use for a standard student? Once I have that I just "make" a new student and fill in the details. The computer now knows, for each of these new students, all of the methods I will need to use on them, saving me endless lines of unnecessary code.</p>
+    </div>
+<div class="tips">
+    <h1>Methods</h1>
+    <p>Method are actions you want to perform on a variable or even a set of variables. Think of it as the guidebook, the brains behind what you want to do, telling the computer a set chain of actions you need accomplished. For instance if I tell the computer "Rufus".length it will tell me how long that word is. Ruby has a lot of preset methods that came included, for a variety of data types. There are math methods that let you do basic arithmatic, string methods that let you capitalize and do basic edits to text n shit, array methods that let you change round orders etc. I can put all of the different actions together and call that chain anything I want. Now all I have to do is call the chain of events and BOOM, the computer knows all of the different steps I need to happen and returns whatever I need. Don't see one you want in our list or online? Well, luckily you can make a method of your own. Simply tell the computer what you want to accomplish.
+</p>
+    </div>
+    <div class="tips">
+    <h1>Loops</h1>
+    <p>Loops are basically like methods but for actions you may want to do multiple times. Let's say I want to count to 10, and for each number I want to add that many pieces of candy to a jar. Wouldn't it be a massive pain in the ass to have to write out 10 separate actions for the computer to do? That's a lot of code. And coding is about being lazy. The better thing to do would be to explain just once to the computer what action I want it to do, and then simply have it do it 10 times. That's a loop. It's an action that we want the computer to do a set number of times.</p>
+    <p>So basically its: While condition A is true, keep doing action B. When A is no longer true, stop looping. To use our candy example: While the counter is less than 10 keep adding that many pieces of candy to the var and then go to the next numbers. Once you've hit 10, stop.</p>
+    </div>
+    <div id="footer">
+    <h1>For more details check out: <a href= "ruby-doc.org">Ruby Docs</a></h1>
+    </div>
+  </body>
+</html>
