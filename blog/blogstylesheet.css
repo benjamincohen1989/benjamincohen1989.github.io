@@ -1,25 +1,48 @@
 div {
   border-radius: 5px;
+  height: 450px;
+  width: 49%;
+  background-color: #FF6633;
+  float: left;
+  margin:5px;
 }
 
 #header {
-  height: 100px;
+  height:100px;
+  width: 99%;
   background-color: #3399FF;
   margin-bottom: 10px;
   top: 0px;
 }
 
-.tips {
-  height: 450px;
-  width: 48%;
+.left {
+  height: 600px;
+  width: 13%;
   background-color: #FF6633;
   float: left;
-  margin-bottom: 10px;
-  background-image: url("dimsum.JPG");
+  margin: 6px;
+  padding-left: 3px;
+}
+
+.left h2 {
+  text-align: left;
+}
+
+.left p {
+  font-size: 12px;
+}
+
+.right {
+  height: 600px;
+  width: 84%;
+  background-color: #FF6633;
+  float: right;
   margin: 6px;
 }
 
+
 #footer {
+  width: 99%;
   height: 50px;
   background-color: #3399FF;
   clear: both;
@@ -27,7 +50,6 @@ div {
 }
 
 h1 {
-  padding-top: 10px;
   text-align: center;
 }
 
@@ -37,7 +59,7 @@ h2 {
 
 p{
   font-weight: bold;
-  font-size: 20px;
+  font-size: 19px;
   color: black;
   top:0;
   float:center;

@@ -1,0 +1,79 @@
+div {
+	border-radius: 5px;
+}
+
+#header {
+	height: 100px;
+	background-color: #F38630;
+	margin-bottom: 10px;
+	top: 0px;
+}
+
+.aboutme {
+	height: 325px;
+	width: 49%;
+	background-color: #A7DBD8;
+	float: left;
+	margin-bottom: 10px;
+	background-image: url("dimsum.JPG");
+}
+
+.projects {
+	height: 325px;
+	width: 49%;
+	background-color: #E0E4CC;
+	float: right;
+	margin-bottom: 10px;
+	background-image: url("nuclear.JPG");
+}
+
+.blog {
+	height: 325px;
+	width: 49%;
+	background-color: #A7DBD8;
+	float: left;
+	margin-bottom: 10px;
+	background-image: url("coffee.JPG");
+	background-size: 100%;
+}
+
+.links {
+	height: 325px;
+	width: 49%;
+	background-color: #E0E4CC;
+	float: right;
+	margin-bottom: 10px;
+	background-image: url("redhat.JPG");
+}
+
+#footer {
+	height: 50px;
+	background-color: #69D2E7;
+	clear: both;
+
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p{
+	font-weight: bold;
+	font-size: 58px;
+	color: #ffffff;
+	top:0;
+	float:center;
+}
+
+a{
+	text-decoration: none;
+}

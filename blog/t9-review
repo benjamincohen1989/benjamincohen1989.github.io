@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<title>Final Review</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+<main>
+<h1>HTML and CSS</h1>
+<h2>Life always goes full circle</h2>
+<h4>April 26, 2015</h4>
+<section>
+<p>
+So it has come to this. Back at HTML and CSS. The truth of it is, this week has been crazy with a few personal emergencies so I haven't really been able to devote any real time to my site. As I look through our twitter feed at all of the amazing creations out there it definitely reminds me just how important this is and makes me want to get to it. I know that will be harder in the next few months as DBC starts up in person, but its a real priority.
+</p>
+<p>
+I think the other thing for me personally is that I'm not looking to build a professional site for myself at the moment. I'm starting grad school in the fall so I'm fortunate to not have to go job hunting once this course ends. That takes a whole chunk of pressure off, so I can be more relaxed with the course and with my own development.
+</p>
+<p>
+I'm excited to start this week and looking forward to building my site further.
+</p>
+</section>
+</main>
